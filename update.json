@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "version": "0.1.11",
+  "version": "0.1.12",
   "channel": "stable",
   "arch": "windows-x64",
   "notes": [
-    "参考 LiteView，将版本更新改为无系统标题栏的轻量浮层。",
-    "关闭浮层后可继续编辑，草稿和变量填写保留；下载可在后台进行。"
+    "输入框、下拉框、复选框、选中项、变量标签和菜单圆角统一增加抗锯齿处理，改善边缘台阶。",
+    "焦点边框保持均匀的一像素线宽，文字与原生输入区域保持清晰；仅圆角两端使用临时高分辨率缓冲，避免大输入框增加整面重绘开销。"
   ],
-  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.11",
-  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.11/PromPocket-0.1.11-windows-x64.zip",
-  "portable_sha256": "15e994e1d058908d182357acf63803228f88c0817c21996fad439d7911e5d888",
-  "portable_size": 1013817,
-  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.11/PromPocket-Setup-0.1.11.exe",
-  "installer_sha256": "6c3846ca63e815bbcaaae6d3d450f7559d3319d35881c184093c7c502aebacbb",
-  "installer_size": 807856,
+  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.12",
+  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.12/PromPocket-0.1.12-windows-x64.zip",
+  "portable_sha256": "b94d94af7f040efca67c930414264a225f77637b78e007cc65373543b3a49e98",
+  "portable_size": 1014485,
+  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.12/PromPocket-Setup-0.1.12.exe",
+  "installer_sha256": "619b47453992f264ef9c6081bafa8b1b5815c34192d9c061f3a40bcc48d1e0c9",
+  "installer_size": 808509,
   "binary_sha256": {
-    "prompt.exe": "1d3f01adc8adad66350d1fd34c40be07215be9ebf5e2f60d797284480035856c",
-    "prompt-desktop.exe": "3faa8c24aca4bb1cdd4cbc97238334042c5f2c3f08ce95badd55fc9e7e228e99"
+    "prompt.exe": "cbe1d32dd452c5af592d3b2a346dbf0ac7529fea7c52f294c86d973716ca2fc7",
+    "prompt-desktop.exe": "b6ef5c602591a4caefc1bb550d22ac9e3e9652fcf017fac21e747f5c6358767c"
   }
 }
