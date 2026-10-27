@@ -1,24 +1,23 @@
 {
   "schema_version": 1,
-  "version": "0.1.20",
+  "version": "0.1.21",
   "channel": "stable",
   "arch": "windows-x64",
   "notes": [
-    "新增提示词分享：单条导出 Markdown，分类与全库导出 ZIP；保留正文、变量设置及分类层级，分类可选择是否包含子分类。",
-    "支持选择或拖入 MD/ZIP 导入，先预览提示词与变量数量；默认新建可改名的独立分类，也可导入已有分类。",
-    "同名提示词自动另存，导入生成新 ID；保留变量显示名称、类型、必填设置和默认值，不带入临时填写值。",
-    "分享包排除隐藏状态、回收记录和非 Markdown 文件；导入检查异常路径、重复路径、文件大小及预览后文件变化，避免覆盖已有内容。",
-    "CLI 与 Agent API 同步提供导出、导入预览及导入功能。"
+    "项目正式更名为 PrompTray，统一桌面界面、程序资源、安装包、快捷方式、文档及发布仓库名称。",
+    "安装版兼容原 PromPocket 安装目录与注册信息，升级保留原提示词库、回收记录和个人配置。",
+    "更新器兼容旧安装标识与跳过版本配置，并为旧版客户端保留专用更新迁移入口。",
+    "命令行与 Agent API 继续使用 prompt.exe，桌面启动文件继续使用 prompt-desktop.exe。"
   ],
-  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.20",
-  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.20/PromPocket-0.1.20-windows-x64.zip",
-  "portable_sha256": "d8d5101b1a3a408af95dbcff84437fdd3702a7f23c7c92b9c29679499629c8cf",
-  "portable_size": 1319573,
-  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.20/PromPocket-Setup-0.1.20.exe",
-  "installer_sha256": "a69ef1edc1f67b11a7e688beb0e36cf1a64d502ae65e161a1c2c09069f23d8d8",
-  "installer_size": 965138,
+  "release_url": "https://github.com/k0ngss/PrompTray-updates/releases/tag/v0.1.21",
+  "portable_url": "https://github.com/k0ngss/PrompTray-updates/releases/download/v0.1.21/PrompTray-0.1.21-windows-x64.zip",
+  "portable_sha256": "eaaa3601572222fb6480dc4aa61e32512a3b85a2209b7ccc89d31c368d99742c",
+  "portable_size": 1339748,
+  "installer_url": "https://github.com/k0ngss/PrompTray-updates/releases/download/v0.1.21/PrompTray-Setup-0.1.21.exe",
+  "installer_sha256": "0d6662e5124f91eccde96ce0995def98923bb71e33a689fed85e59ee72d44313",
+  "installer_size": 967261,
   "binary_sha256": {
-    "prompt.exe": "904928ea2129e2989fed083577c24adceeb0794ab29331669921d9f79b715fbd",
-    "prompt-desktop.exe": "be9f8bfc360b16664e17a046cf7da314f9623d1d18a0033e7d0f3edcc354009e"
+    "prompt.exe": "a093dd76841076da208c56a8ad6d3572287cbe854c2054300d7a07c8af08fdb5",
+    "prompt-desktop.exe": "4497179f88b1212686d91e0f638cb5b62a0114c3e4799b1d3f68e54a223157ee"
   }
 }
