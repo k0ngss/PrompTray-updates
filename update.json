@@ -1,23 +1,22 @@
 {
   "schema_version": 1,
-  "version": "0.1.21",
+  "version": "0.1.22",
   "channel": "stable",
   "arch": "windows-x64",
   "notes": [
-    "项目正式更名为 PrompTray，统一桌面界面、程序资源、安装包、快捷方式、文档及发布仓库名称。",
-    "安装版兼容原 PromPocket 安装目录与注册信息，升级保留原提示词库、回收记录和个人配置。",
-    "更新器兼容旧安装标识与跳过版本配置，并为旧版客户端保留专用更新迁移入口。",
-    "命令行与 Agent API 继续使用 prompt.exe，桌面启动文件继续使用 prompt-desktop.exe。"
+    "桌面程序改为 PrompTray.exe，命令行工具改为 PrompTray-cli.exe，同步更新构建资源、快捷方式、文档及 Agent API 调用示例。",
+    "按开发阶段约定取消旧文件名兼容包与启动别名；安装和本地升级备份后移除旧 EXE，正式安装包与便携包只使用两个新文件名。",
+    "安装、更新、校验、文件锁保护、失败回滚和卸载流程同步适配；原提示词库、分类、回收站及个人配置保持原样。"
   ],
-  "release_url": "https://github.com/k0ngss/PrompTray-updates/releases/tag/v0.1.21",
-  "portable_url": "https://github.com/k0ngss/PrompTray-updates/releases/download/v0.1.21/PrompTray-0.1.21-windows-x64.zip",
-  "portable_sha256": "eaaa3601572222fb6480dc4aa61e32512a3b85a2209b7ccc89d31c368d99742c",
-  "portable_size": 1339748,
-  "installer_url": "https://github.com/k0ngss/PrompTray-updates/releases/download/v0.1.21/PrompTray-Setup-0.1.21.exe",
-  "installer_sha256": "0d6662e5124f91eccde96ce0995def98923bb71e33a689fed85e59ee72d44313",
-  "installer_size": 967261,
+  "release_url": "https://github.com/k0ngss/PrompTray-updates/releases/tag/v0.1.22",
+  "portable_url": "https://github.com/k0ngss/PrompTray-updates/releases/download/v0.1.22/PrompTray-0.1.22-windows-x64.zip",
+  "portable_sha256": "742943c039f9c4448a6e8c8f7e5b6489ac15f51abf73dd74cd2db6ac31dac5d4",
+  "portable_size": 1340208,
+  "installer_url": "https://github.com/k0ngss/PrompTray-updates/releases/download/v0.1.22/PrompTray-Setup-0.1.22.exe",
+  "installer_sha256": "74b341a97a41403ad0b1746978c4ba9b441d5104c7f9806a82b2009a253e23bc",
+  "installer_size": 966323,
   "binary_sha256": {
-    "prompt.exe": "a093dd76841076da208c56a8ad6d3572287cbe854c2054300d7a07c8af08fdb5",
-    "prompt-desktop.exe": "4497179f88b1212686d91e0f638cb5b62a0114c3e4799b1d3f68e54a223157ee"
+    "PrompTray-cli.exe": "8680dc1cae72732f2ebf8aabff491286668ccb3601c8e594fdd6bfca9a63b28d",
+    "PrompTray.exe": "c5d00b8bcfde12eac29816306c6016365b183a087f0ae0c93201874cc0cbcb3b"
   }
 }
