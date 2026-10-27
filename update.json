@@ -1,23 +1,24 @@
 {
   "schema_version": 1,
-  "version": "0.1.19",
+  "version": "0.1.20",
   "channel": "stable",
   "arch": "windows-x64",
   "notes": [
-    "提示词列表新增右键菜单，可直接编辑、重命名和删除；操作准确选中右键所在条目，同一提示词已填写的变量保持原样。",
-    "分类新增右键菜单，支持新建提示词、新建子分类、重命名及删除空分类；“全部提示词”仅提供新建操作。",
-    "右键菜单沿用深色圆角样式，支持菜单键、Shift+F10、方向键、回车和 Esc；空白处不误操作相邻条目，编辑期间保护未保存草稿。",
-    "删除继续经过确认，提示词保留最近五条恢复和 Windows 回收站，非空分类不会被删除。"
+    "新增提示词分享：单条导出 Markdown，分类与全库导出 ZIP；保留正文、变量设置及分类层级，分类可选择是否包含子分类。",
+    "支持选择或拖入 MD/ZIP 导入，先预览提示词与变量数量；默认新建可改名的独立分类，也可导入已有分类。",
+    "同名提示词自动另存，导入生成新 ID；保留变量显示名称、类型、必填设置和默认值，不带入临时填写值。",
+    "分享包排除隐藏状态、回收记录和非 Markdown 文件；导入检查异常路径、重复路径、文件大小及预览后文件变化，避免覆盖已有内容。",
+    "CLI 与 Agent API 同步提供导出、导入预览及导入功能。"
   ],
-  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.19",
-  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.19/PromPocket-0.1.19-windows-x64.zip",
-  "portable_sha256": "2fe7865874c0232a1e4f16804967e13037da4ec799bb402ae2f0595aaf07d3b4",
-  "portable_size": 1052324,
-  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.19/PromPocket-Setup-0.1.19.exe",
-  "installer_sha256": "fdaab648959a0258c933e8c982bdd0afe97100074fe3682ae8f3e21a1bb3b7e9",
-  "installer_size": 833723,
+  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.20",
+  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.20/PromPocket-0.1.20-windows-x64.zip",
+  "portable_sha256": "d8d5101b1a3a408af95dbcff84437fdd3702a7f23c7c92b9c29679499629c8cf",
+  "portable_size": 1319573,
+  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.20/PromPocket-Setup-0.1.20.exe",
+  "installer_sha256": "a69ef1edc1f67b11a7e688beb0e36cf1a64d502ae65e161a1c2c09069f23d8d8",
+  "installer_size": 965138,
   "binary_sha256": {
-    "prompt.exe": "7d9ee2402281347e4930ec0a2af2d1740eddbdaaad58d185179dabdac60320a4",
-    "prompt-desktop.exe": "312435cc931e67f14050ae83bb27fe115297f078468d0f3ba028d453be06adde"
+    "prompt.exe": "904928ea2129e2989fed083577c24adceeb0794ab29331669921d9f79b715fbd",
+    "prompt-desktop.exe": "be9f8bfc360b16664e17a046cf7da314f9623d1d18a0033e7d0f3edcc354009e"
   }
 }
