@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "version": "0.1.13",
+  "version": "0.1.14",
   "channel": "stable",
   "arch": "windows-x64",
   "notes": [
-    "点击“下载并安装”后，下载和校验完成即自动关闭程序、安装更新并重新打开原提示词库，无需再次点击安装。",
-    "编辑中的草稿保持原状，保存或取消编辑后自动继续安装；等待期间可取消安装。关闭更新浮层不打断下载和自动安装，取消或失败不会触发安装。"
+    "未保存修改、删除确认及错误提示统一使用应用深色浮层、中文字体、圆角与按钮样式，移除白色系统消息框。",
+    "放弃修改使用“继续编辑 / 放弃修改”明确操作，默认继续编辑；Esc、关闭浮层均保留草稿，支持 Tab 和回车操作。"
   ],
-  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.13",
-  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.13/PromPocket-0.1.13-windows-x64.zip",
-  "portable_sha256": "b35ce7fc6fb87150879e37c8cf4d84ab2281bd0eb8285e98d90348c74c7960bd",
-  "portable_size": 1014679,
-  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.13/PromPocket-Setup-0.1.13.exe",
-  "installer_sha256": "76d770b25281627fda0305660ba02ed4ab7df8670422e5ea2cae1d1f4800c161",
-  "installer_size": 808397,
+  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.14",
+  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.14/PromPocket-0.1.14-windows-x64.zip",
+  "portable_sha256": "ed4615b8a31e385af48f3530d9d79ff047f201fd839c5d7a65969c90230e8a18",
+  "portable_size": 1017323,
+  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.14/PromPocket-Setup-0.1.14.exe",
+  "installer_sha256": "a8073cc03b2baa226f59a395412da219402e1e839a679704144e37f8c1b76c9f",
+  "installer_size": 810903,
   "binary_sha256": {
-    "prompt.exe": "19acba6a22aee5199be1fe282305bcff063d08a90ab907e86c7f3ec440e767c3",
-    "prompt-desktop.exe": "36046b7d1f628eb38235e3390dbd41e4246d82cfdf8c0ef1823877b177887629"
+    "prompt.exe": "64ec06fac1c5237fef74054a0b7af6548d171559ac5f9150d1cd3e05517de72e",
+    "prompt-desktop.exe": "248835ed558d20b25035c605a17a523e7c892e25051c02fc44822c2a157aa879"
   }
 }
