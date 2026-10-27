@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "version": "0.1.16",
+  "version": "0.1.17",
   "channel": "stable",
   "arch": "windows-x64",
   "notes": [
-    "修复主窗口最小化后恢复时外缘、圆角外观变化的问题，明确保持统一的窗口圆角与无系统边框样式。",
-    "最小化期间暂停窗口布局，避免零尺寸布局和重绘切换干扰恢复；保留恢复后的控件位置、尺寸与草稿。",
-    "验证连续最小化恢复、最大化后最小化恢复、八方向缩放和任务栏工作区适配。"
+    "进一步修复连续最小化恢复时边缘残影、圆角外观变化及系统边框重新覆盖自绘界面的问题。",
+    "主窗口统一使用 DWM 合成边缘，关闭旧式子窗口合成与系统非客户区绘制，保持普通窗口圆角及最大化工作区边缘稳定。",
+    "新增真实屏幕像素回归：普通窗口与最大化窗口各连续十次最小化恢复，逐次核对四角、四条边及窗口尺寸，并检查最终还原到普通窗口。"
   ],
-  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.16",
-  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.16/PromPocket-0.1.16-windows-x64.zip",
-  "portable_sha256": "fbdd2b15efe22c16f28054e6f0282900c56c0e345f51a57cc4fa66925986e5a2",
-  "portable_size": 1018876,
-  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.16/PromPocket-Setup-0.1.16.exe",
-  "installer_sha256": "2395e45bd87615b296b540dab79067889a87eb90e47df7314c1bf628f0cfb4be",
-  "installer_size": 811994,
+  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.17",
+  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.17/PromPocket-0.1.17-windows-x64.zip",
+  "portable_sha256": "41b50c9d1672deca618912840853f4070516168dac37438e0b51b0032aac4efb",
+  "portable_size": 1019160,
+  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.17/PromPocket-Setup-0.1.17.exe",
+  "installer_sha256": "6b4118a173b3403b55cda714a3f308b0b8f847b3c525a98b864eb2ed7b34e00a",
+  "installer_size": 811559,
   "binary_sha256": {
-    "prompt.exe": "10de1a35c9e1596323844d6b610dda9dbe286d1bfcc444e4b382844296aa7d9b",
-    "prompt-desktop.exe": "24bf8168c6f5e16018ac4a672f461c12bd65266dd85320de1e8cba72d44e5bf9"
+    "prompt.exe": "e03fd97b74c77cc4351ecc7e81e8f2536854e965ef27c0d73972539a21412f00",
+    "prompt-desktop.exe": "5c5110f03a725a3f9f81bdd5ec712904aaa2a59547de01cdbe7eea7a8a35cfc7"
   }
 }
