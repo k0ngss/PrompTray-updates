@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "version": "0.1.18",
+  "version": "0.1.19",
   "channel": "stable",
   "arch": "windows-x64",
   "notes": [
-    "左侧新增常驻“最近删除”入口，按删除顺序显示最近 5 条提示词，每条均可直接点击“恢复”。",
-    "恢复保留原始正文、变量、ID 和文件内容，自动重建已删除的原分类；同名文件或重复 ID 不会被覆盖，恢复后自动选中提示词。",
-    "删除仍移入 Windows 回收站，另在本库保存最多 5 条恢复副本；删除失败不会占用最近删除记录，原系统回收站与旧回收记录保持兼容。",
-    "新增 CLI 与 Agent API 的最近删除查询和恢复操作；浮层支持键盘操作、关闭取消与空状态提示。"
+    "提示词列表新增右键菜单，可直接编辑、重命名和删除；操作准确选中右键所在条目，同一提示词已填写的变量保持原样。",
+    "分类新增右键菜单，支持新建提示词、新建子分类、重命名及删除空分类；“全部提示词”仅提供新建操作。",
+    "右键菜单沿用深色圆角样式，支持菜单键、Shift+F10、方向键、回车和 Esc；空白处不误操作相邻条目，编辑期间保护未保存草稿。",
+    "删除继续经过确认，提示词保留最近五条恢复和 Windows 回收站，非空分类不会被删除。"
   ],
-  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.18",
-  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.18/PromPocket-0.1.18-windows-x64.zip",
-  "portable_sha256": "4f8e9145a0e3d3af9712ee6bedcdc5044e48b0ec7c2ed5fef89bddee2f17719d",
-  "portable_size": 1050901,
-  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.18/PromPocket-Setup-0.1.18.exe",
-  "installer_sha256": "2725ee6d4becbd379cbac05f7b833e0094839556025cc539466176df99344ee5",
-  "installer_size": 832165,
+  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.19",
+  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.19/PromPocket-0.1.19-windows-x64.zip",
+  "portable_sha256": "2fe7865874c0232a1e4f16804967e13037da4ec799bb402ae2f0595aaf07d3b4",
+  "portable_size": 1052324,
+  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.19/PromPocket-Setup-0.1.19.exe",
+  "installer_sha256": "fdaab648959a0258c933e8c982bdd0afe97100074fe3682ae8f3e21a1bb3b7e9",
+  "installer_size": 833723,
   "binary_sha256": {
-    "prompt.exe": "4769e051e0799c3f34cbfaff285aca0021df3e8cb70a477c42741b0531c67381",
-    "prompt-desktop.exe": "c2f727404555f53309d13fd65b2bff6c27c972f960e3b29b27b426ccee06c758"
+    "prompt.exe": "7d9ee2402281347e4930ec0a2af2d1740eddbdaaad58d185179dabdac60320a4",
+    "prompt-desktop.exe": "312435cc931e67f14050ae83bb27fe115297f078468d0f3ba028d453be06adde"
   }
 }
