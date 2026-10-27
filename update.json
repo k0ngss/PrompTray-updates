@@ -1,21 +1,23 @@
 {
   "schema_version": 1,
-  "version": "0.1.14",
+  "version": "0.1.15",
   "channel": "stable",
   "arch": "windows-x64",
   "notes": [
-    "未保存修改、删除确认及错误提示统一使用应用深色浮层、中文字体、圆角与按钮样式，移除白色系统消息框。",
-    "放弃修改使用“继续编辑 / 放弃修改”明确操作，默认继续编辑；Esc、关闭浮层均保留草稿，支持 Tab 和回车操作。"
+    "新建分类、分类与提示词重命名、变量设置、旧回收站恢复均改为统一深色无系统标题栏浮层。",
+    "管理表单、确认提示与版本更新共用标题区、圆角边框和关闭按钮；长表单适配屏幕高度，Tab 导航自动滚动到当前输入项。",
+    "下拉选项列表统一为深色圆角与中性边框，移除展开时的系统蓝色外框。",
+    "保留取消和关闭不提交、多行回车换行、下拉选择及草稿保护，并修复焦点在取消按钮时按回车仍提交的问题。"
   ],
-  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.14",
-  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.14/PromPocket-0.1.14-windows-x64.zip",
-  "portable_sha256": "ed4615b8a31e385af48f3530d9d79ff047f201fd839c5d7a65969c90230e8a18",
-  "portable_size": 1017323,
-  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.14/PromPocket-Setup-0.1.14.exe",
-  "installer_sha256": "a8073cc03b2baa226f59a395412da219402e1e839a679704144e37f8c1b76c9f",
-  "installer_size": 810903,
+  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.15",
+  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.15/PromPocket-0.1.15-windows-x64.zip",
+  "portable_sha256": "1fa4d65db0578afa6c43c6308113003912f25d1d6eb3bee200eff1ae8918bd90",
+  "portable_size": 1019062,
+  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.15/PromPocket-Setup-0.1.15.exe",
+  "installer_sha256": "e69bbf833b80c32168cd094d977c12530131e307f1e7844315eb7d10fa1e4962",
+  "installer_size": 811590,
   "binary_sha256": {
-    "prompt.exe": "64ec06fac1c5237fef74054a0b7af6548d171559ac5f9150d1cd3e05517de72e",
-    "prompt-desktop.exe": "248835ed558d20b25035c605a17a523e7c892e25051c02fc44822c2a157aa879"
+    "prompt.exe": "ff3b550beb8b3eb93d746227953689d35f5eb857c36763ad65a947393f8e80c0",
+    "prompt-desktop.exe": "2782ae87fa9ef188c6c1dafbe00242cafd86a20f9fa6f74833f55e6a00a34522"
   }
 }
