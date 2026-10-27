@@ -1,22 +1,23 @@
 {
   "schema_version": 1,
-  "version": "0.1.17",
+  "version": "0.1.18",
   "channel": "stable",
   "arch": "windows-x64",
   "notes": [
-    "进一步修复连续最小化恢复时边缘残影、圆角外观变化及系统边框重新覆盖自绘界面的问题。",
-    "主窗口统一使用 DWM 合成边缘，关闭旧式子窗口合成与系统非客户区绘制，保持普通窗口圆角及最大化工作区边缘稳定。",
-    "新增真实屏幕像素回归：普通窗口与最大化窗口各连续十次最小化恢复，逐次核对四角、四条边及窗口尺寸，并检查最终还原到普通窗口。"
+    "左侧新增常驻“最近删除”入口，按删除顺序显示最近 5 条提示词，每条均可直接点击“恢复”。",
+    "恢复保留原始正文、变量、ID 和文件内容，自动重建已删除的原分类；同名文件或重复 ID 不会被覆盖，恢复后自动选中提示词。",
+    "删除仍移入 Windows 回收站，另在本库保存最多 5 条恢复副本；删除失败不会占用最近删除记录，原系统回收站与旧回收记录保持兼容。",
+    "新增 CLI 与 Agent API 的最近删除查询和恢复操作；浮层支持键盘操作、关闭取消与空状态提示。"
   ],
-  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.17",
-  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.17/PromPocket-0.1.17-windows-x64.zip",
-  "portable_sha256": "41b50c9d1672deca618912840853f4070516168dac37438e0b51b0032aac4efb",
-  "portable_size": 1019160,
-  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.17/PromPocket-Setup-0.1.17.exe",
-  "installer_sha256": "6b4118a173b3403b55cda714a3f308b0b8f847b3c525a98b864eb2ed7b34e00a",
-  "installer_size": 811559,
+  "release_url": "https://github.com/k0ngss/PromPocket-updates/releases/tag/v0.1.18",
+  "portable_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.18/PromPocket-0.1.18-windows-x64.zip",
+  "portable_sha256": "4f8e9145a0e3d3af9712ee6bedcdc5044e48b0ec7c2ed5fef89bddee2f17719d",
+  "portable_size": 1050901,
+  "installer_url": "https://github.com/k0ngss/PromPocket-updates/releases/download/v0.1.18/PromPocket-Setup-0.1.18.exe",
+  "installer_sha256": "2725ee6d4becbd379cbac05f7b833e0094839556025cc539466176df99344ee5",
+  "installer_size": 832165,
   "binary_sha256": {
-    "prompt.exe": "e03fd97b74c77cc4351ecc7e81e8f2536854e965ef27c0d73972539a21412f00",
-    "prompt-desktop.exe": "5c5110f03a725a3f9f81bdd5ec712904aaa2a59547de01cdbe7eea7a8a35cfc7"
+    "prompt.exe": "4769e051e0799c3f34cbfaff285aca0021df3e8cb70a477c42741b0531c67381",
+    "prompt-desktop.exe": "c2f727404555f53309d13fd65b2bff6c27c972f960e3b29b27b426ccee06c758"
   }
 }
