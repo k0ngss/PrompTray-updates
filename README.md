@@ -1,10 +1,11 @@
-# PromPocket
+# PrompTray
 
 Windows x64 本地 Markdown 提示词库，提供原生桌面程序与独立 CLI。
+原名 PromPocket；旧版通过原更新入口迁移后，自动使用 PrompTray 更新源。原提示词库和个人配置保留。
 
 ## 下载与使用
 
-前往 [最新版本](https://github.com/k0ngss/PromPocket-updates/releases/latest) 下载 `PromPocket-Setup-版本.exe` 安装版，或下载 Windows x64 ZIP 便携版。安装版默认安装到当前用户 `%LOCALAPPDATA%\Programs\PromPocket`，不需要管理员权限，提供开始菜单、可选桌面快捷方式和系统卸载入口。
+前往 [最新版本](https://github.com/k0ngss/PrompTray-updates/releases/latest) 下载 `PrompTray-Setup-版本.exe` 安装版，或下载 Windows x64 ZIP 便携版。安装版默认安装到当前用户 `%LOCALAPPDATA%\Programs\PrompTray`，不需要管理员权限，提供开始菜单、可选桌面快捷方式和系统卸载入口。
 已有便携版可选择原程序目录安装，原库会备份并保留；若安装到新目录，请先备份并复制自己的 `library/`。
 提示词保存在程序旁的 `library/`，文件变化自动刷新。右键点击提示词可编辑、重命名或删除；右键点击分类可新建提示词、新建子分类、重命名或删除空分类，也可用菜单键或 Shift+F10 打开菜单。左侧“最近删除”保留最近 5 条删除记录，每条可直接恢复到原分类，保留正文、变量和 ID，同名文件不覆盖。删除 MD 仍进入 Windows 回收站；旧软件回收站完整保留，有旧记录时从分类旁“···”菜单恢复。CLI 使用方法：`prompt.exe --help` 或 `prompt.exe api`。
 
