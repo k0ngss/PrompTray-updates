@@ -1,22 +1,21 @@
 {
   "schema_version": 1,
-  "version": "0.1.23",
+  "version": "0.1.24",
   "channel": "stable",
   "arch": "windows-x64",
   "notes": [
-    "新增全局快选，默认按 Ctrl+Alt+Space 打开，可按标题或分类搜索，并将提示词粘贴回原输入位置。常用提示词可绑定专属快捷键。",
-    "每条提示词分别记住上次填写。多次复制的值可从「常用」选回，文件和文件夹也可拖入变量框。",
-    "主界面直接显示快选和专属快捷键，内容预览为填入的变量值加底色。详情、列表和弹窗标题采用常规字重。"
+    "点击右上角 × 会收起到 Windows 系统托盘，保留编辑草稿。单击托盘图标恢复窗口，右键可彻底退出。主窗口在前台时也可按 Alt+F4 退出。",
+    "全局快选在鼠标旁打开小菜单，只列出库里的提示词，最近使用的排在前面。最多显示七行，条目较多时可滚动。单击或按 Enter 粘贴回原输入处。"
   ],
-  "release_url": "https://github.com/k0ngss/PrompTray-updates/releases/tag/v0.1.23",
-  "portable_url": "https://github.com/k0ngss/PrompTray-updates/releases/download/v0.1.23/PrompTray-0.1.23-windows-x64.zip",
-  "portable_sha256": "bd2c0f94e2681d7327bfeb95cd560f6d306457a440133ee3739813e44632863d",
-  "portable_size": 1413424,
-  "installer_url": "https://github.com/k0ngss/PrompTray-updates/releases/download/v0.1.23/PrompTray-Setup-0.1.23.exe",
-  "installer_sha256": "07b139c8e7937a220accac7d3ce07624f8d63a40ccae4b4251d97f43515870c2",
-  "installer_size": 1024718,
+  "release_url": "https://github.com/k0ngss/PrompTray-updates/releases/tag/v0.1.24",
+  "portable_url": "https://github.com/k0ngss/PrompTray-updates/releases/download/v0.1.24/PrompTray-0.1.24-windows-x64.zip",
+  "portable_sha256": "021a5ac138e51e9a22e95414e87ce36c8459de992a52590a5598f4a29a2e9855",
+  "portable_size": 1413438,
+  "installer_url": "https://github.com/k0ngss/PrompTray-updates/releases/download/v0.1.24/PrompTray-Setup-0.1.24.exe",
+  "installer_sha256": "ef0a9f65008341769608a9c6fd2594d02ed9606cfbe64bafa8209582109240c7",
+  "installer_size": 1025363,
   "binary_sha256": {
-    "PrompTray-cli.exe": "aba23eb7428a73aa381a6523cf55d0af321871e47af5239e73493f46892c2efd",
-    "PrompTray.exe": "ddf7b3e5a547e2e91f5f75b5a19c9e67329d162f9f490b05e37b8c739c91f240"
+    "PrompTray-cli.exe": "92bee547b2ba4413bb37a9675ea3eb2a42f5ade92564529beed47ac9c0832fe3",
+    "PrompTray.exe": "f7e630465781c7db2ec15664f6c2e6c9547a6d61b164ecfd88fbefc811becb17"
   }
 }
