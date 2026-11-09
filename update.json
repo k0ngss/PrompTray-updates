@@ -1,21 +1,22 @@
 {
   "schema_version": 1,
-  "version": "0.1.24",
+  "version": "0.1.25",
   "channel": "stable",
   "arch": "windows-x64",
   "notes": [
-    "点击右上角 × 会收起到 Windows 系统托盘，保留编辑草稿。单击托盘图标恢复窗口，右键可彻底退出。主窗口在前台时也可按 Alt+F4 退出。",
-    "全局快选在鼠标旁打开小菜单，只列出库里的提示词，最近使用的排在前面。最多显示七行，条目较多时可滚动。单击或按 Enter 粘贴回原输入处。"
+    "新增可选开机自启动，默认关闭。开启后登录 Windows 自动驻留托盘，手动打开仍显示主窗口；可随时在顶部关闭。",
+    "每次启动检查快选与专属快捷键，冲突时弹窗列出组合、对应提示词和原因，可立即修改或稍后处理。自启动遇到冲突时也会显示主窗口和提示。",
+    "保存快捷键仍有冲突时提示重新选择，保留本次选择与原有效配置；修复一项后继续保留其他未解决项的提示。"
   ],
-  "release_url": "https://github.com/k0ngss/PrompTray-updates/releases/tag/v0.1.24",
-  "portable_url": "https://github.com/k0ngss/PrompTray-updates/releases/download/v0.1.24/PrompTray-0.1.24-windows-x64.zip",
-  "portable_sha256": "021a5ac138e51e9a22e95414e87ce36c8459de992a52590a5598f4a29a2e9855",
-  "portable_size": 1413438,
-  "installer_url": "https://github.com/k0ngss/PrompTray-updates/releases/download/v0.1.24/PrompTray-Setup-0.1.24.exe",
-  "installer_sha256": "ef0a9f65008341769608a9c6fd2594d02ed9606cfbe64bafa8209582109240c7",
-  "installer_size": 1025363,
+  "release_url": "https://github.com/k0ngss/PrompTray-updates/releases/tag/v0.1.25",
+  "portable_url": "https://github.com/k0ngss/PrompTray-updates/releases/download/v0.1.25/PrompTray-0.1.25-windows-x64.zip",
+  "portable_sha256": "a76ed6c5838aabe7bb1081d02b962aa43ebda9f6bc8b616f6661e869a587524a",
+  "portable_size": 1415815,
+  "installer_url": "https://github.com/k0ngss/PrompTray-updates/releases/download/v0.1.25/PrompTray-Setup-0.1.25.exe",
+  "installer_sha256": "5ac3b4ee129b59f701a52700d8c5e3f9da296ff46af49c066251516d42cbb5c8",
+  "installer_size": 1027476,
   "binary_sha256": {
-    "PrompTray-cli.exe": "92bee547b2ba4413bb37a9675ea3eb2a42f5ade92564529beed47ac9c0832fe3",
-    "PrompTray.exe": "f7e630465781c7db2ec15664f6c2e6c9547a6d61b164ecfd88fbefc811becb17"
+    "PrompTray-cli.exe": "9f6d3b3e9ca7de591aba9fa8be163900549a6cf513c2e1adb29cb2bef6a61fea",
+    "PrompTray.exe": "4f3b445163056fdf1cb1f508360da1a117e3bbc5f6b989d9b2b9d40314792b51"
   }
 }
